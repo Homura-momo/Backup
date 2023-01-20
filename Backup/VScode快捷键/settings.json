@@ -1,0 +1,648 @@
+{
+  "explorer.confirmDelete": false,
+  "leetcode.endpoint": "leetcode-cn",
+  "leetcode.workspaceFolder": "D:\\OneDrive - mails.tsinghua.edu.cn\\Project\\VS Code\\Leetcode",
+  "leetcode.defaultLanguage": "python3",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "C_Cpp.clang_format_style": "{ BasedOnStyle: Chromium, IndentWidth: 4}",
+  "files.autoSave": "afterDelay",
+  "extensions.ignoreRecommendations": true,
+  "editor.fontSize": 16,
+  "vsicons.dontShowNewVersionMessage": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.wordWrap": "on",
+  "css.enabledLanguages": [
+    "html"
+  ],
+  "css.styleSheets": [],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.filePath": {
+    "default": {
+      "folder": "",
+      "filename": "${id}.${kebab-case-name}.${ext}"
+    }
+  },
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "launch": {
+    "configurations": []
+  },
+  "explorer.confirmDragAndDrop": false,
+  "less.compile": {
+    "out": "../css/"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "code-runner.runInTerminal": true,
+  "editor.linkedEditing": true,
+  "workbench.editor.enablePreview": false,
+  "files.autoGuessEncoding": true,
+  "editor.formatOnPaste": true,
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+  "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+  "C_Cpp.formatting": "vcFormat",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/*.exe": true
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "python.analysis.completeFunctionParens": true,
+  "editor.accessibilitySupport": "off",
+  "redhat.telemetry.enabled": false,
+  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.remotePlatform": {
+    "Ubuntu": "linux"
+  },
+  "editor.lineNumbers": "on",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "terminal.integrated.fontSize": 16,
+  "editor.formatOnType": true,
+  "window.zoomLevel": 1,
+  "http.proxyAuthorization": null,
+  "settingsSync.ignoredSettings": [
+    "-matlab.mlintpath",
+    "-matlab.matlabpath"
+  ],
+  "matlab.matlabpath": "D:\\Program Files(D)\\MATLAB\\R2023a\\bin\\matlab.exe",
+  "matlab.mlintpath": "D:\\Program Files(D)\\MATLAB\\R2023a\\bin\\win64\\mlint.exe",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {},
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "1033",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\im-select\\im-select.exe",
+  "vim.autoSwitchInputMethod.switchIMCmd": "C:\\im-select\\im-select.exe {im} && C:\\im-select\\im-select.exe 1033",
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": [
+    "#8FBCBB",
+    "#434C5E"
+  ],
+  "vim.statusBarColors.insert": "#BF616A",
+  "vim.statusBarColors.visual": "#B48EAD",
+  "vim.statusBarColors.visualline": "#B48EAD",
+  "vim.statusBarColors.visualblock": "#A3BE8C",
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.commandlineinprogress": "#009ccc",
+  "vim.statusBarColors.searchinprogressmode": "#009ccc",
+  "vim.statusBarColors.easymotionmode": "#009ccc",
+  "vim.statusBarColors.easymotioninputmode": "#009ccc",
+  "vim.statusBarColors.surroundinputmode": "#009ccc",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#B48EAD",
+    "statusBar.noFolderBackground": "#B48EAD",
+    "statusBar.debuggingBackground": "#B48EAD",
+    "statusBar.foreground": "#434C5E",
+    "statusBar.debuggingForeground": "#434C5E"
+  },
+  "vim.smartRelativeLine": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "[",
+      ],
+      "commands": [
+        "editor.action.marker.prevInFiles"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "]",
+      ],
+      "commands": [
+        "editor.action.marker.nextInFiles"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "=",
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
+    },
+    {
+      "before": [
+        "<",
+      ],
+      "after": [
+        "<",
+        "<",
+      ]
+    },
+    {
+      "before": [
+        ">",
+      ],
+      "after": [
+        ">",
+        ">",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "d"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "d",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "c"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "c",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "x"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "x",
+      ]
+    },
+    /*     全局命令 */
+    // 打开设置页面
+    {
+      "before": [
+        "leader",
+        "g",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.openSettings"
+      ]
+    },
+    // 打开热键映射
+    {
+      "before": [
+        "leader",
+        "g",
+        "k"
+      ],
+      "commands": [
+        "workbench.action.openGlobalKeybindings"
+      ]
+    },
+    // 新建vscode实例
+    {
+      "before": [
+        "leader",
+        "g",
+        "n"
+      ],
+      "commands": [
+        "workbench.action.newWindow"
+      ]
+    },
+    // 关闭vscode实例
+    {
+      "before": [
+        "leader",
+        "g",
+        "q"
+      ],
+      "commands": [
+        "workbench.action.closeWindow"
+      ]
+    },
+    /*     文件 */
+    // 新建文件
+    {
+      "before": [
+        "leader",
+        "f",
+        "n"
+      ],
+      "commands": [
+        "welcome.showNewFileEntries"
+      ]
+    },
+    // 打开最近记录
+    {
+      "before": [
+        "leader",
+        "f",
+        "h"
+      ],
+      "commands": [
+        "workbench.action.openRecent"
+      ]
+    },
+    // 关闭所有文件
+    {
+      "before": [
+        "leader",
+        "f",
+        "Q"
+      ],
+      "commands": [
+        "welcome.showNewFileEntries"
+      ]
+    },
+    // 打开一个文件
+    {
+      "before": [
+        "leader",
+        "f",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.files.openFile"
+      ]
+    },
+    // 另存为文件
+    {
+      "before": [
+        "leader",
+        "f",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.files.saveAs"
+      ]
+    },
+    // 打开一个目录
+    {
+      "before": [
+        "leader",
+        "f",
+        "d"
+      ],
+      "commands": [
+        "workbench.action.files.openFolder"
+      ]
+    },
+    //重新打开关闭的文件
+    {
+      "before": [
+        "leader",
+        "f",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.reopenClosedEditor"
+      ]
+    },
+    // 关闭文件
+    {
+      "before": [
+        "leader",
+        "f",
+        "q"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditors"
+      ]
+    },
+    // 关闭所有文件
+    {
+      "before": [
+        "leader",
+        "f",
+        "Q"
+      ],
+      "commands": [
+        "workbench.action.closeAllEditors"
+      ]
+    },
+    /*     导航 */
+    // 切换侧边栏显示状态
+    {
+      "before": [
+        "leader",
+        "n",
+        "n"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    },
+    // 显示文件资源管理器
+    {
+      "before": [
+        "leader",
+        "n",
+        "e"
+      ],
+      "commands": [
+        "workbench.files.action.focusFilesExplorer"
+      ]
+    },
+    // 显示TODO Tree
+    {
+      "before": [
+        "leader",
+        "n",
+        "t"
+      ],
+      "commands": [
+        "todo-tree-view.focus"
+      ]
+    },
+    // 显示全局搜索
+    {
+      "before": [
+        "leader",
+        "n",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.replaceInFiles"
+      ]
+    },
+    //显示扩展
+    {
+      "before": [
+        "leader",
+        "n",
+        "x"
+      ],
+      "commands": [
+        "viewContainer.workbench.view.extensions.enabled"
+      ]
+    },
+    //显示远程控制
+    {
+      "before": [
+        "leader",
+        "n",
+        "r"
+      ],
+      "commands": [
+        "workbench.view.scm"
+      ]
+    },
+    //显示Git
+    {
+      "before": [
+        "leader",
+        "n",
+        "g"
+      ],
+      "commands": [
+        "workbench.view.scm"
+      ]
+    },
+    /*     面板 */
+    //显示面板
+    {
+      "before": [
+        "leader",
+        "p",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.togglePanel"
+      ]
+    },
+    // 显示命令
+    {
+      "before": [
+        "leader",
+        "p",
+        "c"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
+    },
+    // 显示问题
+    {
+      "before": [
+        "leader",
+        "p",
+        "m"
+      ],
+      "commands": [
+        "workbench.actions.view.problems"
+      ]
+    },
+    // 显示输出
+    {
+      "before": [
+        "leader",
+        "p",
+        "o"
+      ],
+      "commands": [
+        "workbench.action.output.toggleOutput"
+      ]
+    },
+    // 显示终端
+    {
+      "before": [
+        "leader",
+        "p",
+        "t"
+      ],
+      "commands": [
+        "workbench.action.terminal.toggleTerminal"
+      ]
+    },
+    // 显示调试控制台
+    {
+      "before": [
+        "leader",
+        "p",
+        "d"
+      ],
+      "commands": [
+        "workbench.debug.action.toggleRepl"
+      ]
+    },
+  ],
+  // 可视模式下的非递归按键绑定
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "d"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "d",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "c"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "c",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "x"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "x",
+      ]
+    },
+  ],
+  // 插入模式下的非递归按键绑定
+  "vim.insertModeKeyBindings": [],
+  // 命令模式下的非递归按键绑定
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  //todo-tree 标签配置  标签兼容大小写字母
+  "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.general.tags": [
+    "todo", //添加自定义的标签成员,将在下面实现它们的样式
+    "bug",
+    "tag",
+    "done",
+    "mark",
+    "test",
+    "update"
+  ],
+  "todo-tree.regex.regexCaseSensitive": false,
+  "todo-tree.highlights.defaultHighlight": { //如果相应变量没赋值就会使用这里的默认值
+    "foreground": "#000000", //字体颜色
+    "background": "#FFFF00", //背景色
+    "icon": "check", //标签样式 check 是一个对号的样式
+    "rulerColour": "#FFFF00", //边框颜色
+    "type": "tag", //填充色类型  可在TODO TREE 细节页面找到允许的值 
+    "iconColour": "#FFFF00" //标签颜色
+  },
+  "todo-tree.highlights.customHighlight": {
+    //todo 		需要做的功能
+    "todo": {
+      "icon": "alert", //标签样式
+      "background": "#c9c552", //背景色
+      "rulerColour": "#c9c552", //外框颜色
+      "iconColour": "#c9c552", //标签颜色
+    },
+    //bug		必须要修复的BUG  
+    "bug": {
+      "background": "#eb5c5c",
+      "icon": "bug",
+      "rulerColour": "#eb5c5c",
+      "iconColour": "#eb5c5c",
+    },
+    //tag		标签
+    "tag": {
+      "background": "#38b2f4",
+      "icon": "tag",
+      "rulerColour": "#38b2f4",
+      "iconColour": "#38b2f4",
+      "rulerLane": "full"
+    },
+    //done		已完成
+    "done": {
+      "background": "#5eec95",
+      "icon": "check",
+      "rulerColour": "#5eec95",
+      "iconColour": "#5eec95",
+    },
+    //mark     	标记一下
+    "mark": {
+      "background": "#f90",
+      "icon": "note",
+      "rulerColour": "#f90",
+      "iconColour": "#f90",
+    },
+    //test		测试代码
+    "test": {
+      "background": "#df7be6",
+      "icon": "flame",
+      "rulerColour": "#df7be6",
+      "iconColour": "#df7be6",
+    },
+    //update  	优化升级点
+    "update": {
+      "background": "#d65d8e",
+      "icon": "versions",
+      "rulerColour": "#d65d8e",
+      "iconColour": "#d65d8e",
+    }
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.sneak": true,
+  "vim.visualstar": true,
+  "vim.replaceWithRegister": true,
+  "vim.sneakReplacesF": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.minimap.autohide": true,
+  "editor.suggest.showClasses": false,
+  "vim.debug.silent": true,
+  "vim.showMarksInGutter": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoImportUserSymbols": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": true,
+}
